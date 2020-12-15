@@ -1,0 +1,17 @@
+target 'OC_BaseProject' do
+  use_frameworks!
+  platform :ios, '10.0'
+  
+  # 常用
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'Masonry'
+  pod 'MBProgressHUD'
+  pod 'SDCycleScrollView' #图片轮播器
+  pod 'TZImagePickerController' #图片选择器
+  pod 'BRPickerView' #日期 省市区选择器
+  pod 'SSZipArchive'#解压缩
+  pod 'IQKeyboardManager'#键盘
+end
